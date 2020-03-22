@@ -1,2 +1,15 @@
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja Bem Vindo 
+--Exercício 002
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
+
 nome = input('Digite seu Nome: ')
-input(f'Seja bem vindo {nome}!')
+print(f'Seja bem vindo {nome}!')
+
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado Pelo Uso!!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

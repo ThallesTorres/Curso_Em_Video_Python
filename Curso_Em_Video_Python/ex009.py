@@ -9,3 +9,9 @@ print(f'{n} X 7 = {n * 7}')
 print(f'{n} X 8 = {n * 8}')
 print(f'{n} X 9 = {n * 9}')
 print('-' * 10)
+
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado Pelo Uso!!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')
