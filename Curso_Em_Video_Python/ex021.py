@@ -1,4 +1,12 @@
 # Ex: 021 - Faça um programa em Python que abra o áudio de um arquivo MP3.
+
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 021
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
+
 import pygame
 # Inicializando o mixer PyGame
 pygame.mixer.init()
@@ -16,3 +24,9 @@ mixer.init()
 mixer.music.load('aa.mp3')
 mixer.music.play()
 input('Agora você escuta?')'''
+
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

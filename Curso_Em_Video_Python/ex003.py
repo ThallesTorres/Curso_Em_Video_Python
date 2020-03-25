@@ -1,6 +1,6 @@
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
---Seja Bem Vindo 
+--Seja bem-vindo! 
 --Exercício 003
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ''')
@@ -11,6 +11,6 @@ print(f'A soma entre {n1} e {n2} é igual a {n1+n2}!')
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
---Obrigado Pelo Uso!!
+--Obrigado pelo uso!
 --Desenvolvido por Thalles Torres
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

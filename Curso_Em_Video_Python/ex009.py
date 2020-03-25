@@ -1,3 +1,10 @@
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 009
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
+
 n = int(input('Digite um número para ver sua tabuada: '))
 print('-' * 10)
 print(f'{n} X 2 = {n * 2}')
@@ -12,6 +19,6 @@ print('-' * 10)
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
---Obrigado Pelo Uso!!
+--Obrigado pelo uso!
 --Desenvolvido por Thalles Torres
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

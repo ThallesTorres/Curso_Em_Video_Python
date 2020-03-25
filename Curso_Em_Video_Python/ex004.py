@@ -1,6 +1,6 @@
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
---Seja Bem Vindo 
+--Seja bem-vindo! 
 --Exercício 004
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ''')
@@ -17,6 +17,6 @@ print(f'Está capitalizada? {algo.istitle()}')
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
---Obrigado Pelo Uso!!
+--Obrigado pelo uso!
 --Desenvolvido por Thalles Torres
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

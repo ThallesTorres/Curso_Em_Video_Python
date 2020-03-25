@@ -1,4 +1,13 @@
-# Ex: 019 - Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido.
+# Ex: 019 - Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa 
+# que ajude ele, lendo o nome deles e escrevendo o nome do escolhido.
+
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 019
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
+
 from random import choice
 print('-' * 5, 'Nomes', '-' * 5)
 a1 = str(input('Primeiro aluno: '))
@@ -8,3 +17,9 @@ a4 = str(input('Quarto aluno: '))
 lista = [a1, a2, a3, a4]
 escolhido = choice(lista)
 print(f'O aluno escolhido foi: {escolhido}')
+
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

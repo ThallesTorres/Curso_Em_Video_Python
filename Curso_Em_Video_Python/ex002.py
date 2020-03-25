@@ -1,6 +1,6 @@
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
---Seja Bem Vindo 
+--Seja bem-vindo! 
 --Exercício 002
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ''')
@@ -10,6 +10,6 @@ print(f'Seja bem vindo {nome}!')
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
---Obrigado Pelo Uso!!
+--Obrigado pelo uso!
 --Desenvolvido por Thalles Torres
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

@@ -1,6 +1,6 @@
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
---Seja Bem Vindo 
+--Seja bem-vindo! 
 --Exercício 005
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ''')
@@ -12,6 +12,6 @@ print(f'\nAnalisando o valor {n} \n'
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
---Obrigado Pelo Uso!!
+--Obrigado pelo uso!
 --Desenvolvido por Thalles Torres
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

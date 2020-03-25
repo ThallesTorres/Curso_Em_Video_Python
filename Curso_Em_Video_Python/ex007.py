@@ -1,6 +1,6 @@
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
---Seja Bem Vindo 
+--Seja bem-vindo! 
 --Exercício 007
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ''')
@@ -11,6 +11,6 @@ print(f'\nA média entre {nota1} e {nota2} é igual a {(nota1 + nota2) / 2:.1f}'
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
---Obrigado Pelo Uso!!
+--Obrigado pelo uso!
 --Desenvolvido por Thalles Torres
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')
