@@ -2,10 +2,12 @@
 # parênteses. Seu aplicativo deverá analisar se a expressão passada está com os 
 # parênteses abertos e fechado na ordem correta.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 83')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 083
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 expre = input(f'Digite a expressão com parênteses: ')
 teste = []
@@ -27,6 +29,6 @@ else:
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
---Obrigado Pelo Uso!!
+--Obrigado pelo uso!
 --Desenvolvido por Thalles Torres
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

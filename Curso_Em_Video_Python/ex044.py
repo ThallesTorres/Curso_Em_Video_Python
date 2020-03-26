@@ -4,10 +4,12 @@
 # desconto; Em até 2x no cartão - preço normal; 3x ou mais no cartão -
 # 20% de juros.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 44')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 044
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Valor Final da Mercadoria\n'
       '--Preencha os Dados')
@@ -61,8 +63,8 @@ else:
               f'Preço das Parcelas:     R${preco_parcelado:.2f} ({parcelas}x)\n'
               f'Preço Final:            R${valor_final:.2f}')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

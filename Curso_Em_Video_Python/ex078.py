@@ -2,10 +2,12 @@
 # lista. No final, mostre qual foi o maior e o menor valor digitado e as suas
 # respectivas posições na lista.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 78')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 078
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Preencha os Dados')
 
@@ -25,8 +27,8 @@ Valores digitados: {list_valores}
 Menor valor {min(list_valores)} na posição {pos_min}
 Maior valor {max(list_valores)} na posição {pos_max}''')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

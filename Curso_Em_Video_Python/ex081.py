@@ -4,10 +4,12 @@
 # B - A lista de valores, ordenada de forma decrescente.
 # C - Se o valor 5 foi digitado e está ou não na lista.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 81')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 081
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 lista = []
 
@@ -25,8 +27,8 @@ Total de números digitados: {len(lista)}
 Ordenados decrescentes: {lista}
 O número 5 {'faz' if 5 in lista else 'não faz'} parte dessa lista.''')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

@@ -2,10 +2,12 @@
 # seus respectivos preços, na sequência. No final, mostre uma listagem de preços,
 # organizando os dados em forma tabular.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 76')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 076
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 produtos = ("Lápis", 1.75, "Borracha", 2.00, "Caderno", 15.90, "Estojo", 25.00,
             "Transferidor", 4.20, "Compasso", 9.99, "Mochila", 120.32, "Canetas",
@@ -26,8 +28,8 @@ print('-' * 40)
         print(f'R$ {i:>5.2f}')
 print('--'*20)'''
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

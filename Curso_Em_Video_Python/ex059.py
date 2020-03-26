@@ -2,10 +2,12 @@
 # [1]Somar; [2]Multiplicar; [3]Maior; [4]Novos números; [5] Sair do programa.
 # Seu programa deverá realizar a operação solicitada em cada caso.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 59')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 059
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Preencha os Dados')
 
@@ -55,8 +57,8 @@ while opcao != 5:
 
 print('Programa finalizado. Volte sempre!')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

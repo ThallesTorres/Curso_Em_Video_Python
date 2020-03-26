@@ -3,10 +3,12 @@
 # continuar. No final, mostra: Quantas pessoas tem mais de 18 anos; Quantos
 # homens foram cadastrados; Quantas mulheres tem menos de 20 anos.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 67')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 069
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Preencha os Dados')
 
@@ -44,9 +46,8 @@ Pessoas Maiores de 18 Anos: {maior_de_18}
 Homens Cadastrados: {homens_cadastrados}
 Mulheres com Menos de 20 Anos: {mulheres_menores_de_20}''')
 
-
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

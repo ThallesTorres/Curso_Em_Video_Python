@@ -3,10 +3,12 @@
 # e o programa vai informar quantas cédulas de cada valor serão entregues.
 # OBS: Considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 71')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 071
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Preencha os Dados')
 valor = int(input('Valor a ser sacado: R$'))
@@ -55,8 +57,8 @@ while True:
         if total == 0:
             break'''
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

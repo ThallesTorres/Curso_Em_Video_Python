@@ -2,10 +2,12 @@
 # iímpares que são múltiplos de três e que se escontram no intervalo de
 # 1 até 500.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 48')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 048
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 cont = 0
 soma = 0
@@ -20,8 +22,8 @@ print('')
 print(f'Total de Números: {cont}\n'
       f'Soma final: {soma}')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

@@ -2,10 +2,12 @@
 # mostrar que tipo de triângulo será formado: Equilátero - Todos os lados
 # iguais, Isósceles - Dois lados iguais, Escaleno - Todos os lados diferentes.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 42')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 042
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Preencha os Dados ')
 m1 = float(input('1° Medida do triângulo: '))
@@ -28,8 +30,8 @@ else:
     n = 'ESCALENO'
     print(f'De acordo com as medidas informadas, seu triângulo é {n}')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

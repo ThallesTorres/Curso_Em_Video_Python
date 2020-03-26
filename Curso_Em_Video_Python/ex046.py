@@ -5,10 +5,12 @@
 from time import sleep
 import emoji
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 46')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 046
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 for contagem in range(10, 0, -1):
     sleep(1)
@@ -16,8 +18,8 @@ for contagem in range(10, 0, -1):
 
 print(emoji.emojize(':boom:' * 15, use_aliases=True))
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

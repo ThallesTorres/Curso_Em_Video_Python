@@ -5,10 +5,12 @@
 
 from datetime import date
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 41')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 041
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Confederação Nacional de Natação')
 print('--Preencha os Dados ')
@@ -35,8 +37,8 @@ else:
 print(f'O atleta tem {idade} anos.')
 print(f'Você está na Categoria: {categoria.upper()}.')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

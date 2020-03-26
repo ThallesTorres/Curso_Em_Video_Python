@@ -1,10 +1,12 @@
 # Ex: 051 - Desenvolva um programa que leia o primeiro termo e a razão de uma
 # PA. No final. mostre os 10 primeiros termos dessa progressão.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 51')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 051
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Progressão Aritmética\n'
       '--Preencha os Dados')
@@ -16,8 +18,8 @@ for c in range(1, 10):
     termo1 = termo1 + razao
     print(termo1, end=', ')
 
-print('Fim!\n')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

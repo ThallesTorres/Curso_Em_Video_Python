@@ -3,10 +3,12 @@
 # Média abaixo de 5 - Reprovado, Média entre 5 e 6.9 - Recuperação,
 # Média 7 ou superior - Aprovado.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 40')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 040
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Preencha os Dados ')
 n1 = float(input('1° Nota: '))
@@ -23,8 +25,8 @@ elif media >= 7:
 else:
     print('O aluno está em Recuperação! ')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

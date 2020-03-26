@@ -1,5 +1,6 @@
-# Ex: 026 - Faça um programa que leia uma frase pelo teclado e mostra: Quantas vezes aparece a letra "A"; 
-# Em que posição ela aparece a primeira vez; Em que posição ela aparece a última vez.
+# Ex: 026 - Faça um programa que leia uma frase pelo teclado e mostra: Quantas 
+# vezes aparece a letra "A"; Em que posição ela aparece a primeira vez; Em que 
+# posição ela aparece a última vez.
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

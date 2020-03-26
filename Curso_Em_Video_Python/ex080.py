@@ -2,10 +2,12 @@
 # e cadastre-os em uma lista, já na posição correta de inserção (sem usar o sort()).
 # No final, mostre a lista ordenada na tela.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 80')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 080
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Preencha os Dados')
 
@@ -27,8 +29,8 @@ for x in range(0, 5):
 
 print(f'\nValores digitados em ordem: {lista}')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

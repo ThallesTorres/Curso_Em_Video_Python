@@ -3,10 +3,12 @@
 # os 5 primeiros colocados; Os últimos 4 colocados da tabela; Uma lista com os
 # times em ordem alfabética; Em que posição na tabela está o time da Chapecoense.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 73')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 073
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 times = ('Flamengo', 'Santos', 'Palmeiras', 'Corinthians', 'São Paulo',
          'Internacional', 'Bahia', 'Atlético-MG', 'Atlético-PR', 'Botafogo',
@@ -24,8 +26,8 @@ Ordem Alfabética: {sorted(times)}
 ----
 Posição Chapecoense: {times.index('Chapecoense') + 1}° Colocado''')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

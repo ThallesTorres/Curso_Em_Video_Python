@@ -2,10 +2,12 @@
 
 from random import randint
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 45')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 045
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Jogo: Pedra, Papel ou tesoura')
 print('''--Você acha que consegue ganhar de mim?!! Tente!!
@@ -51,8 +53,9 @@ else:
 
         else:
             print(f'Eba!! Ganhei, eu tinha escolhido {lista[sorteado]}')
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles')
-print('-=-' * 10, '\n')
+
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

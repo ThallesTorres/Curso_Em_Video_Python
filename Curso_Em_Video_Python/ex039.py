@@ -5,10 +5,12 @@
 
 from datetime import date
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 39')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 039
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Serviço Militar OBRIGATÓRIO!!! ')
 print('--Preencha os Dados ')
@@ -42,8 +44,8 @@ else:
             print(f'Falta {falta} anos para o Alistamento OBRIGATÓRIO. \n'
                   f'Seu alistemento será em {falta + ano_atual}.')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

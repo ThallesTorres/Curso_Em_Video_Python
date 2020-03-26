@@ -3,10 +3,12 @@
 # é o total gasto na compra; Quantos produtos custam mais de R$1000; Qual é o
 # nome do produto mais barato.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 70')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 070
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Preencha os Dados')
 
@@ -41,8 +43,8 @@ Total Gasto:                  {gasto}
 Mais de R$1.000:              {mais_de_mil}
 Nome do Produto Mais Barato:  {nome_menor}''')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

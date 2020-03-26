@@ -1,10 +1,12 @@
 # Ex: 052 - Faça um programa que leia um número inteiro e diga se ele é ou
 # não um número primo.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 52')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 052
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Verificador de Números Primos\n'
       '--Preencha os Dados')
@@ -39,8 +41,8 @@ print(f'O número {num} foi divisível {cont} vezes.\n'
 else:
     print(f'O número {num} é primo.')'''
 
-print('\n')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

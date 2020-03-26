@@ -1,9 +1,13 @@
-# Ex: 038 - Escreva um programa que leia dois números inteiros e compare-os mostrando na tela uma mensagem: O primeiro valor é maior, O segundo valor é maior ou Não existe valor maior, os dois são iguais.
+# Ex: 038 - Escreva um programa que leia dois números inteiros e compare-os 
+# mostrando na tela uma mensagem: O primeiro valor é maior, O segundo valor é 
+# maior ou Não existe valor maior, os dois são iguais.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo')
-print('--Exercício 38')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 038
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Preencha os Dados: ')
 n1 = int(input('1° Número: '))
@@ -19,7 +23,8 @@ elif n2 > n1:
 else:
     print(f'Não existe valor maior, os dois {n1, n2} são iguais. \n')
 
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

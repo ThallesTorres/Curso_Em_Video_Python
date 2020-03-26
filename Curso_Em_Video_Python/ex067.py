@@ -2,10 +2,12 @@
 # vez, para cada valor digitado pelo usuário. O programa será interrompido
 # quando o núemro solicitado for negativo.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 67')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 067
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 while True:
     num = int(input('Quer ver a tabuada de qual valor? '))
@@ -15,8 +17,8 @@ while True:
     for cont in range(0, 11):
         print(f'{num} x {cont:2} = {num * cont}')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

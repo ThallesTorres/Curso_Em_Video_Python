@@ -3,10 +3,12 @@
 # adicionado. No final, serão exibidos todos os valores únicos digitados, em ordem
 # crescente.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 79')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 079
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Preencha os Dados')
 
@@ -30,8 +32,8 @@ while decisao == 's':
 valores_unicos.sort()
 print(f'\nValores digitados: {valores_unicos}')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

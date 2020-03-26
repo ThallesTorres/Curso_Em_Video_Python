@@ -1,10 +1,12 @@
 # Ex: 061 - Refaça o DESAFIO 051, lendo o primeiro termo e a razão de uma PA,
 # mostrando os 10 primeiros termos da progressão usando a estrutura while.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 61')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 061
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Progressão Aritmética\n'
       '--Preencha os Dados')
@@ -19,8 +21,8 @@ while cont < 10:
     termo += razao
     cont += 1
 
-print('Fim\n')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

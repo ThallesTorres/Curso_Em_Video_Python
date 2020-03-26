@@ -2,10 +2,12 @@
 # acentos). Despois disso, você deve mostrar, para cada palavra, quais são as
 # suas vogais.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 77')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 077
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 palavras = ('aprender', 'programar', 'linguagem', 'python', 'curso', 'gratis',
             'estudar', 'praticar', 'trabalhar', 'mercado', 'programador', 'futuro')
@@ -18,8 +20,8 @@ for p in palavras:
         if letra in 'aeiou':
             print(letra, end=' - ')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

@@ -2,10 +2,12 @@
 # guarde-os em uma tupla. No final, mostre: Quantas vezes apareceu o valor 9;
 # Em que posição foi digitado o primeiro valor 3; Quais foram os números pares.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 75')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 075
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 valores = (int(input('Digite o 1° valor: ')),
            int(input('Digite o 2° valor: ')),
@@ -28,8 +30,8 @@ print(f'\n--Dados Finais '
       f'\n{x}'
       f'\nFoi digitado {cont} valores pares.')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

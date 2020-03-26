@@ -2,10 +2,12 @@
 # mostrar mais alguns termos. O programa encerra quando ele disser que quer
 # mostrar 0 termos.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 62')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 062
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Progressão Aritmética\n'
       '--Preencha os Dados')
@@ -26,8 +28,8 @@ while mais != 0:
     mais = int(input('Quantos termos você quer mostrar a mais? '))
 print(f'Progressão finalizada com {total} termos mostrados.')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

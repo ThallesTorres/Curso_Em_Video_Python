@@ -1,9 +1,13 @@
-# Ex: 037 - Escreva um programa que leia um número interio qualquer e peça para o usuário escolher qual será a base de conversão: 1 para binário, 2 para octal, 3 para hexadecimal.
+# Ex: 037 - Escreva um programa que leia um número interio qualquer e peça 
+# para o usuário escolher qual será a base de conversão: 1 para binário, 2 
+# para octal, 3 para hexadecimal.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 37')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 037
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 numero = int(input('--Digite um número inteiro: '))
 print('''--Escolha uma das bases para conversão: 
@@ -24,8 +28,8 @@ elif opcao == 3:
 else:
     print('Opção Inválida. Tente novamente.')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

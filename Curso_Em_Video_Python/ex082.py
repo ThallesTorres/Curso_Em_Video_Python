@@ -3,11 +3,12 @@
 # os valores ímpares digitados, respectivamente. Ao final, mostre o conteúdo das 
 # três listas geradas.
 
-
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 82')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 082
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 lista, lista_par, lista_impar = [], [], []
 
@@ -29,8 +30,8 @@ Números digitados: {lista}
 Números pares: {lista_par}
 Números ímpares: {lista_impar}''')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

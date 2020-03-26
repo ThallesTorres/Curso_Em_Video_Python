@@ -1,10 +1,12 @@
 # Ex: 063 - Faça um programa que leia um número qualquer e mostre o seu fatorial.
 # (ex: 5! = 5x4x3x2x1 = 120)
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 63')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 063
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 termo = int(input('Quantidade de termos: '))
 
@@ -22,8 +24,8 @@ while cont <= termo:
 
 print('\n--Fim da Sequência')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

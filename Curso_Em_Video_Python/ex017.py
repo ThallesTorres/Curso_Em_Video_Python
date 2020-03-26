@@ -1,5 +1,5 @@
-# Ex: 016 - Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um 
-# triângulo, calcule e mostre o comprimento da hipotenusa.
+# Ex: 016 - Faça um programa que leia o comprimento do cateto oposto e do cateto 
+# adjacente de um triângulo, calcule e mostre o comprimento da hipotenusa.
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

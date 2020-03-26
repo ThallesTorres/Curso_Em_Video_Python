@@ -2,10 +2,12 @@
 # valores 'M' ou 'F'. Caso esteja errado, peça a digitação novamente até ter
 # um valor correto.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 57')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 057
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Verificador de Sexo\n'
       '--Preencha os Dados')
@@ -18,8 +20,8 @@ while sexo not in 'MF':
 
 print(f'\nSexo {sexo} registrado com sucesso!')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

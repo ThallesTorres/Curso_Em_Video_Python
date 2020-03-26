@@ -2,10 +2,12 @@
 # No final do programa, mostre: A média de idade do grupo; Qual é o nome do
 # homem mais velho; Quantas mulheres têm menos de 20 anos.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 56')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 056
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 soma_idade, mais_velho, cont = 0, 0, 0
 nome_mais_velho = ''
@@ -35,8 +37,8 @@ A Média de Idade do grupo é de {soma_idade / 4:.1f} anos.
 O nome do Homem mais velho {nome_mais_velho} e ele tem {mais_velho} anos.
 No grupo tem {cont} Mulheres com menos de 20 anos.''')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

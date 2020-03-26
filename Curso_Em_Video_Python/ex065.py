@@ -3,10 +3,12 @@
 # maior e o menor valores lidos. O programa deve perguntar ao usuário se ele
 # quer ou não continuar a digitar valores.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 65')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 065
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Preencha os Dados')
 
@@ -28,8 +30,8 @@ Média: {soma / cont:.2f}
 Maior: {max(lista)}
 Menor: {min(lista)}''')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

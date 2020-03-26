@@ -4,10 +4,12 @@
 
 from datetime import date
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 54')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 054
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Verificador de Maioridade\n'
       '--Preencha os Dados:')
@@ -29,8 +31,8 @@ print(f'''\n--Dados Finais
 Maiores de idade: {maior_idade}
 Menores de idade: {menor_idade}''')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

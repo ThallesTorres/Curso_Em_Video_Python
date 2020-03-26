@@ -3,10 +3,12 @@
 # Abaixo de 18.5 - Abaixo do Peso, Entre 18.5 e 25 - Peso Ideal,
 # 25 até 30 - Sobrepeso, 30 até 40 - Obesidade, Acima de 40 - Obesidade Mórbida.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 43')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 043
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Calculo IMC')
 print('--Preencha os Dados')
@@ -33,8 +35,8 @@ print('')
 print(f'IMC: {imc:.1f}\n'
       f'Categoria: {categoria.capitalize()}')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

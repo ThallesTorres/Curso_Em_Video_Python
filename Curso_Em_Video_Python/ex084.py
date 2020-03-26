@@ -2,10 +2,12 @@
 # em uma lista. No final, mostre: A) Quantas pessoas foram cadastradas. B) Uma 
 # listagem com as pessoas mais pesadas. C) Uma listagem com as pessoas mais leves.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 84')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 084
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 lista = []
 teste = []
@@ -38,8 +40,8 @@ Pessoas cadastradas: {len(lista)}
 Mais pesadas: {pesado}
 Mais leves: {leve}''')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

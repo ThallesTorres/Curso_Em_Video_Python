@@ -1,6 +1,6 @@
-# Ex: 022 - Crie um programa que leia o nome completo de uma pessoa e mostra: O nome com todas as letras 
-# maiúsculas e minúsculas; Quantas letras ao toddo (sem considerar espaços); Quantas letras tem o primeiro 
-# nome.
+# Ex: 022 - Crie um programa que leia o nome completo de uma pessoa e mostra: 
+# O nome com todas as letras maiúsculas e minúsculas; Quantas letras ao toddo 
+# (sem considerar espaços); Quantas letras tem o primeiro nome.
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

@@ -3,10 +3,12 @@
 # condição de parada. No final, mostre quantos números foram digitados e
 # qual foi a soma entre eles (desconsiderando o flag(999)).
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 64')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 064
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Preencha os Dados')
 
@@ -21,8 +23,8 @@ while num != 999:
 
 print(f'\nVocê digitou {cont} números e a soma entre eles é de {soma}')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

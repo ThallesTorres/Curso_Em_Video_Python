@@ -4,10 +4,12 @@
 
 from random import randint
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 58')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 058
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('Vou pensar em um número entre 0 e 10. Tente adivinhar...')
 sorteado = randint(0, 10)
@@ -31,8 +33,8 @@ while not acertou:
 print(f'''\nParabéns! Você acertou!
 Você teve que tentar {palpites} vezes...''')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')

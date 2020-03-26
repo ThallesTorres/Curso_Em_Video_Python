@@ -1,10 +1,12 @@
 # Ex: 053 - Crie um programa que leia uma frase e diga se ela é um Palíndromo,
 # desconsiderando os espaços.
 
-print('-=-' * 10)
-print('--Seja Bem Vindo'
-      '\n--Exercício 53')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Seja bem-vindo! 
+--Exercício 053
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+''')
 
 print('--Verificador de Frases Palíndromas\n'
       '--Preencha os Dados')
@@ -27,8 +29,8 @@ else:
 
 print(f'A frase digitada {x}É UM PALÍNDROMO! ')
 
-print('')
-print('-=-' * 10)
-print('--Obrigado Pelo Uso'
-      '\n--Desenvolvido por Thalles Torres')
-print('-=-' * 10, '\n')
+print('''
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+--Obrigado pelo uso!
+--Desenvolvido por Thalles Torres
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-''')
