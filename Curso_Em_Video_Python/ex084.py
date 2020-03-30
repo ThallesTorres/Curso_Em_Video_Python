@@ -9,36 +9,38 @@ print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ''')
 
-lista = []
-teste = []
+temp = list()
+princ = list()
 
-continuar = 's'
-while continuar == 's':
+while True:
+    print("--Preencha ")
+    temp.append(str(input("Nome: ").capitalize().strip()))
+    temp.append(float(input("Peso [Kg]: ").strip()))
+    # princ.append(str(input("Nome: "))
+    #              float(input("Peso: ")))
     
-    teste.append(input('Nome: ').title())
-    teste.append(int(input('Peso: ')))
-    
-    lista.append(teste[:])
-    teste.clear()
-    
-    while True:
-        continuar = str(input('Deseja adicionar mais? [S/N] ')).lower().strip()[0]
-        if continuar in 'sn':
-            break
-
-pesado, leve = 0
-
-for x in lista:
-    if x == 0:
-        pesado = lista[1]
-        leve = lista[1]
+    if len(princ) == 0:
+        pesado = leve = temp[1]
+        
     else:
-        if pesado 
-
-print(f'''--Dados Finais
-Pessoas cadastradas: {len(lista)}
-Mais pesadas: {pesado}
-Mais leves: {leve}''')
+        if pesado < temp[1]:
+            pesado = temp[1]
+            
+        if leve > temp[1]:
+            leve = temp[1]
+    
+    princ.append(temp[:])
+    temp.clear()
+    
+    resp = input("\nDeseja adicionar outra pessoa? [S/N] ").strip().lower()
+    print("")
+    if "n" in resp:
+        break
+        
+print(f"""--Dados finais
+Total de pessoas cadastradas: {len(princ)}
+Mais pesado(s) {''.join(f'[{pessoa[0]}] ' for pessoa in princ if pessoa[1] == pesado)}com {pesado}Kg
+Mais leve(s) {''.join(f'[{pessoa[0]}] ' for pessoa in princ if pessoa[1] == leve)}com {leve}Kg""")
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
