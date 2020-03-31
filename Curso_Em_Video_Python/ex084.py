@@ -33,7 +33,7 @@ while True:
     temp.clear()
     
     resp = input("\nDeseja adicionar outra pessoa? [S/N] ").strip().lower()
-    print("")
+    print()
     if "n" in resp:
         break
         
@@ -41,6 +41,15 @@ print(f"""--Dados finais
 Total de pessoas cadastradas: {len(princ)}
 Mais pesado(s) {''.join(f'[{pessoa[0]}] ' for pessoa in princ if pessoa[1] == pesado)}com {pesado}Kg
 Mais leve(s) {''.join(f'[{pessoa[0]}] ' for pessoa in princ if pessoa[1] == leve)}com {leve}Kg""")
+
+# # --Parte do 'join' sem ele:
+# for pessoa in princ:
+#     if pessoa[1] == pesado:
+#         print(f'[{pessoa[0]}]')
+        
+# for pessoa in princ:
+#     if pessoa[1] == leve:
+#         print(f'[{pessoa[0]}]')
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
