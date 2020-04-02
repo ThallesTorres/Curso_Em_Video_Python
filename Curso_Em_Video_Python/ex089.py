@@ -24,25 +24,27 @@ while resp == 's':
     # temp.clear()
 
     princ.append([str(input("Nome do aluno: ")),
-                 int(input("Nota 1: ")),
-                 int(input("Nota 2: "))])
+                 float(input("Nota 1: ")),
+                 float(input("Nota 2: "))])
     
     while True:
-        resp = input("Deseja adicionar mais um aluno? [S/N] ").lower()
+        resp = input("\nDeseja adicionar mais um aluno? [S/N] ").lower()
         if resp in 'sn':
+            print()
             break
         
-print("--Dados finais \n n°     Nome       Média ")
+print(f"--Dados finais \n {'n°':<5}{'Nome':<10}{'Média':<10}")
 for cont, aluno in enumerate(princ):
-    print(f" {cont}{aluno[0]:^7}  {(aluno[1] + aluno[2]) / 2:^7}")
+    print(f" {cont:<5}{aluno[0]:<10}{(aluno[1] + aluno[2]) / 2:<10}")
 
 while True:
-    resp = int(input("Nota do aluno ('999' para parar):"))
+    resp = int(input("\nNota do aluno ('999' para parar):"))
     
     if resp == 999:
         break
     
-    print(f"Notas de {princ[resp][0]}: Nota 1 = {princ[resp][1]}; Nota 2 = {princ[resp][2]}")
+    if resp <= len(princ)-1:
+        print(f"\nNotas de {princ[resp][0]}: Nota 1 = {princ[resp][1]}; Nota 2 = {princ[resp][2]}")
     
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
