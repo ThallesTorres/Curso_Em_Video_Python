@@ -7,16 +7,29 @@
 
 from time import sleep
 
+
 def contador(inicio, fim, passo):  
-    if inicio >= fim:
-        passo *= -1
+    print(f"--Contagem de {inicio} até {fim} de {passo} em {passo}.")
+    sleep(2)
         
-    for x in range(inicio, fim, passo):
-        print(x, end=' ')
+    if inicio >= fim and passo > 0:
+        passo *= -1
+        fim -= 2
+        
+    elif inicio >= fim:
+        fim -= 2
+    
+    if passo == 0 and inicio > fim:
+        passo = -1
+        
+    elif passo == 0 and inicio < fim:
+        passo = 1
+    
+    for x in range(inicio, fim + 1, passo):
+        print(x, end=' | ', flush=True)
         sleep(0.5)
     
-    print()
-
+    print("FIM!\n")
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -27,6 +40,12 @@ print('''
 
 contador(1, 10, 1)
 contador(10, 0, 2)
+
+print("--Tente você também!! ")
+inicio = int(input("Início: "))
+fim = int(input("Fim: "))
+passo = int(input("Passo: "))
+contador(inicio, fim, passo)
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

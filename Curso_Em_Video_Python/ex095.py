@@ -38,13 +38,13 @@ while resp == 's':
     while True:
         resp = input("\nDeseja adicionar mais um jogador? [S/N] ").lower()
         if resp == 's' or resp == 'n':
-            print()
+            print() 
             break
         print("--Valor Inválido")
 
-print(f"--Dados finais \n {'n°':^5}{'Nome':^10}{'Partidas':^10}{'Gols':^10}{'Total':^10}")
+print(f"--Dados finais \n {'n°':<5}{'Nome':<10}{'Partidas':<10}{'Gols':<10}{'Total':<10}")
 for num, v in enumerate(jogadores):
-    print(f"{num:^5}{v['Nome']:^10}{v['Partidas']:^10}{v['Gols']}{v['Total_Gols']:^10}")
+    print(f" {num:<5}{v['Nome']:<10}{v['Partidas']:<10}{str(v['Gols']):<10}{v['Total_Gols']:<10}")
 
 while True:
     resp = int(input("\nMostrar algum jogador? [999 para sair] "))
@@ -56,9 +56,9 @@ while True:
         print("--Valor Inválido")
     
     else:
-        print(f"\nO jogador {jogadores[resp]['Nome']} jogou {jogadores[resp]['Partidas']} partidas.\n")
+        print(f"\n--O jogador {jogadores[resp]['Nome']} jogou {jogadores[resp]['Partidas']} partidas.\n")
         print(''.join(f'=> Na {cont+1}° partida, fez {gols} gols.\n' for cont, gols in enumerate(jogadores[resp]['Gols'])))
-        print(f"Dando um total de {jogadores[resp]['Total_Gols']} gols.")
+        print(f"--Dando um total de {jogadores[resp]['Total_Gols']} gols.")
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

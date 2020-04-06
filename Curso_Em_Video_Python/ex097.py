@@ -3,10 +3,9 @@
 # daptável.
 
 def escreva(msg):
-    print("\n--Dados finais:")
     x = len(msg) + 2
     print(">" * x)
-    print(f" {msg} ")
+    print(f" {msg}")
     print(">" * x)
 
 
@@ -17,7 +16,7 @@ print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ''')
 
-print("--Preenche:")
+escreva("Tente escrever algo!!")
 msg = input("Mensagem: ")
 escreva(msg)
 
