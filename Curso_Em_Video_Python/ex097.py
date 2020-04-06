@@ -5,9 +5,9 @@
 def escreva(msg):
     print("\n--Dados finais:")
     x = len(msg) + 2
-    print("=" * x)
-    print(f"{msg:<1}")
-    print("=" * x)
+    print(">" * x)
+    print(f" {msg} ")
+    print(">" * x)
 
 
 print('''
