@@ -1,5 +1,5 @@
-# Ex: 095 - 
-# guardando os dados de cada pessoa em um dicionário e todos os dicionários 
+# Ex: 095 - Aprimore o DESAFIO 093 para que ele funcione com vários jogadores, 
+# incluindo um sistema de visualização de detalhes do aproveitamento de cada jogador.
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

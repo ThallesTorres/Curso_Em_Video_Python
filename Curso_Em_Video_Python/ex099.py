@@ -2,30 +2,32 @@
 # vários parãmetros com valores inteiros. Seu programa tem que analisar todos 
 # os valores e dizer qual deles é o maior.
 
-def maior(* valores):
-    nums = list()
+from time import sleep
 
-    for v in valores:
-        nums.append(v)
+
+def maior(* valores):        
+    if len(valores) > 1:
+        maior = valores[0]
         
-    if len(nums) > 1:
-        maior = nums[0]
-        
-        for num in nums:
+        for num in valores:
             if num > maior:
                 maior = num
     
-    elif len(nums) == 1:
-        maior = nums[0]
+    elif len(valores) == 1:
+        maior = valores[0]
         
     else: 
         maior = 0
         
     
     print("--Dados finais:")
-    print(f"Números fornecidos: {nums}")
-    print(f"Valores ao todo: {len(nums)}")
+    sleep(1)
+    print(f"Números fornecidos: {valores}")
+    sleep(1)
+    print(f"Valores ao todo: {len(valores)}")
+    sleep(1)
     print(f"Maior valor: {maior}\n")
+    sleep(2)
 
 
 print('''
