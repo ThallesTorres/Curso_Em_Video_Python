@@ -1,14 +1,15 @@
-# Ex: 110 - Adicione ao módulo moeda.py criado nos desafios anteriores, uma 
-# função chamada resumo(), que mostre na tela algumas informações que já 
-# temos no módulo criado até aqui. 
+# Ex: 111 - Crie um pacote chamado utilidadesCeV que tenha dois módulos 
+# internos chamados moeda e dado. Transfira todas as funções utilizadas 
+# nos desafios 107, 108 e 109 para o primeiro pacote e mantenha tudo 
+# funcionando.
 
-import moeda
+from utilidadescev import moeda
 
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 --Seja bem-vindo! 
---Exercício 110
+--Exercício 111
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ''')
 
@@ -16,7 +17,7 @@ moeda.escreva("Análise de preço")
 
 preco = float(input("Digite o preço: R$"))
 
-moeda.resumo(preco, 80, 10)
+moeda.resumo(preco, 10, 10)
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
