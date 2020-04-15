@@ -5,20 +5,21 @@ def printred(msg):
     print(f"\033[31m{msg}\033[m")
 
 
-def sitePudim(x="pudim.com.br"):
+def sitePudim(site):
     import requests
     
     
-    site = x.replace('http://', '')
+    if site == '': #Tive que adicionar esse if, pois colocando 'site="pudim.com.br"' não estava indo...
+        site = "pudim.com.br"
     
     try:
-        site = requests.get(f"http://{site}")
+        requests.get(f"http://{site.replace('http://', '')}")
     
     except Exception as erro:
-        printred(f"O Site {x} está offiline.\nErro: {erro.__class__}")
+        printred(f"O Site {site} está offiline.\nErro: {erro.__class__}")
         
     else:
-        printred(f"O Site {x} está online.")
+        printred(f"O Site {site} está online.")
 
 
 print('''
@@ -28,7 +29,7 @@ print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ''')
 
-sitePudim(input("Digite o site: "))
+sitePudim(input("Digite o site [site padrão = pudim.com.br]: "))
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
