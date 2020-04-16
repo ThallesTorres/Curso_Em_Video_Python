@@ -14,8 +14,8 @@ def titulo(msg='VAZIO'):
     linha()
     
     
-def printRed(msg='VAZIO'):
-    print(f'\033[31m{msg}\033[m')
+def printERRO(msg='VAZIO'):
+    print(f'\033[31m--{msg}\033[m\n')
     
 
 
@@ -30,26 +30,42 @@ def menu():
     
     while True:
         try:
-            opcao = input('Opção desejada: ')
+            x = int(input('Opção desejada: '))
+            
+        except ValueError:
+            printERRO('Erro, digite somente números inteiros entre 1 e 3.')
 
         except Exception as erro:
-            printRed(f'--Erro Inesperado.\n{erro}')
+            printERRO(f'Erro Inesperado.\n{erro.__class__}')
         
         else:
-            if len(opcao) == 1 and opcao in range(1, 4):
-                return opcao
-            
+            if x not in range(1, 4):
+                printERRO('Erro, digite somente números inteiros entre 1 e 3.')
+                
             else:
-                printRed('--Opção Inválida.\n')
+                print()
+                return x
+            
+    
+def ver():
+    with open('/home/fatality/Área de Trabalho/MegaNuvem/Projetos_GitHub/Curso_Em_Video_Python/Curso_Em_Video_Python/ex115/dados.txt') as dados:
+        for linha in dados:
+            print(linha)
+            
+
+
+def cadastrar():
+    with open('/home/fatality/Área de Trabalho/MegaNuvem/Projetos_GitHub/Curso_Em_Video_Python/Curso_Em_Video_Python/ex115/dados.txt', 'a') as dados:
+        dados.write(input('Nome: '))
     
     
 def sair():
     while True:
         try:
-            opcao = input('Realmente deseja SAIR? [S/N] ').upper().strip()
+            opcao = input('\nRealmente deseja SAIR? [S/N] ').upper().strip()
             
         except Exception as erro:
-            printRed(f'--Erro Inesperado.\n{erro}')
+            printERRO(f'Erro Inesperado.\n{erro}')
             
         else:
             if len(opcao) == 1 and opcao in 'SN':
@@ -58,6 +74,9 @@ def sair():
                 # if opcao == 'N':
                 #     return True
                 return True if opcao == 'N' else False
+            
+            else:
+                printERRO('Erro, digite somente [S/N].')
 
         
     
@@ -74,10 +93,17 @@ print('''
 ''')
 
 x = True
-while x:
+while x:   
     opcao = menu()
     
-    x = sair()
+    if opcao == 1:
+        ver()
+        
+    elif opcao == 2:
+        cadastrar()
+        
+    else:
+        x = sair()
 
 print('''
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
