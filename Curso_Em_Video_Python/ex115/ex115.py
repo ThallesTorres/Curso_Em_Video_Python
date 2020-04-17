@@ -9,18 +9,21 @@ def linha():
     
 
 def titulo(msg='VAZIO'):
+    print()
     linha()
     print(f'{msg.upper():^40}')
     linha()
     
     
-def printERRO(msg='VAZIO'):
-    print(f'\033[31m--{msg}\033[m\n')
+def printERRO(msg='VAZIO', quebrar_linha=True):
+    print(f'\033[31m--{msg}\033[m', 
+          '\n' if quebrar_linha else '')
+    
+    
+def printCONCLUIDO(msg='VAZIO'):
+    print(f'\033[34m\n--{msg}\033[m', end='')
     
 
-
-    
-    
 def menu():
     titulo('Menu principal')
     print('1 - Ver pessoas cadastradas')
@@ -43,29 +46,74 @@ def menu():
                 printERRO('Erro, digite somente números inteiros entre 1 e 3.')
                 
             else:
-                print()
                 return x
             
     
 def ver():
-    with open('/home/fatality/Área de Trabalho/MegaNuvem/Projetos_GitHub/Curso_Em_Video_Python/Curso_Em_Video_Python/ex115/dados.txt') as dados:
-        for linha in dados:
-            print(linha)
+    titulo('Pessoas cadastradas')
+    
+    try:
+        with open('/home/fatality/Área de Trabalho/MegaNuvem/Projetos_GitHub/Curso_Em_Video_Python/Curso_Em_Video_Python/ex115/dados.txt', 'r') as dados:
+            for linha in dados:
+                print(linha, end='')
+            
+    except FileNotFoundError:
+        printERRO('Não há pessoas cadastradas.', False)
+    
+    except Exception as erro:
+        printERRO(f'Erro Inesperado.\n{erro.__class__}', False)
+        
+    finally:
+        printCONCLUIDO('[ENTER] para continuar...')
+        input()
             
 
-
 def cadastrar():
+    titulo('Cadastrar pessoa')
+
     with open('/home/fatality/Área de Trabalho/MegaNuvem/Projetos_GitHub/Curso_Em_Video_Python/Curso_Em_Video_Python/ex115/dados.txt', 'a') as dados:
-        dados.write(input('Nome: '))
+        while True:
+            try:
+                nome = input('Nome: ').strip().title()
+                
+                if nome == '':
+                    printERRO(f'Digite somente números.', False)
+                    break
+
+            except:
+                printERRO(f'Erro Inesperado.\n{erro.__class__}', False)
+                
+            else:
+                break
+        
+        while True:
+            try:
+                idade = int(input('Idade: '))
+
+            except ValueError:
+                printERRO(f'Digite somente números.', False)
+            
+            except Exception as erro:
+                printERRO(f'Erro Inesperado.\n{erro.__class__}', False)
+                
+            else:
+                break
+            
+        dados.write(f'{nome:<30} {idade} anos\n')
+            
+        printCONCLUIDO('Cadastro feito com sucesso!')
+        printCONCLUIDO('[ENTER] para continuar...')
+        input()
     
     
 def sair():
     while True:
         try:
-            opcao = input('\nRealmente deseja SAIR? [S/N] ').upper().strip()
+            print()
+            opcao = input('Realmente deseja SAIR? [S/N] ').upper().strip()
             
         except Exception as erro:
-            printERRO(f'Erro Inesperado.\n{erro}')
+            printERRO(f'Erro Inesperado.\n{erro.__class__}')
             
         else:
             if len(opcao) == 1 and opcao in 'SN':
@@ -77,12 +125,6 @@ def sair():
             
             else:
                 printERRO('Erro, digite somente [S/N].')
-
-        
-    
-    
-
-        
 
 
 print('''
@@ -102,7 +144,7 @@ while x:
     elif opcao == 2:
         cadastrar()
         
-    else:
+    elif opcao == 3:
         x = sair()
 
 print('''
