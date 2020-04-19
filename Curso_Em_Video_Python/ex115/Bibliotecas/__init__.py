@@ -50,7 +50,7 @@ def ver():
     titulo('Pessoas cadastradas')
     
     try:
-        with open('/home/fatality/Área de Trabalho/MegaNuvem/Projetos_GitHub/Curso_Em_Video_Python/Curso_Em_Video_Python/ex115/dados.txt', 'r') as dados:
+        with open('dados.txt', 'r') as dados:
             for linha in dados:
                 print(linha, end='')
             
@@ -68,7 +68,7 @@ def ver():
 def cadastrar():
     titulo('Cadastrar pessoa')
 
-    with open('/home/fatality/Área de Trabalho/MegaNuvem/Projetos_GitHub/Curso_Em_Video_Python/Curso_Em_Video_Python/ex115/dados.txt', 'a') as dados:
+    with open('dados.txt', 'a') as dados:
         while True:
             try:
                 nome = input('Nome: ').strip().title()
